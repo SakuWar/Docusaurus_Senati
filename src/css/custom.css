@@ -28,3 +28,80 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.intro .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f129'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.firts_steps .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f04b'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.essential_guides .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f4d9'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.advanced_guides .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f277'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.architecture_inspector .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f0e8'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.complementary_tools .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f7d9'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.network_debugging .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f0ac'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.performance_optimization .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f085'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.shortcuts_productivity .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f201'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.solution_common_problems .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\e490'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.updates_new_features .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f0fe'; /* Código del ícono circle-info */
+  font-weight: 900;
+  margin-right: 0.5em;
+}

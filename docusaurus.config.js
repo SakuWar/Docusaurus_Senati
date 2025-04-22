@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus Senati',
+  title: 'Manual de uso del inspector de elementos',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -90,7 +90,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/SakuWar',
             label: 'GitHub',
             position: 'right',
           },
@@ -134,7 +134,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/SakuWar',
               },
             ],
           },
@@ -146,6 +146,12 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    stylesheets: [
+      {
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+        type: 'text/css',
+      },
+    ],
 };
 
 export default config;
