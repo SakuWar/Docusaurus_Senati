@@ -1,7 +1,5 @@
 # Website
 
-[Docusaurus Senati](https://sakuwar.github.io/Docusaurus_Senati/)
-
 ### Installation
 
 ```
