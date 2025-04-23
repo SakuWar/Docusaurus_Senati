@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Facil de Entender',
+    Svg: require('@site/static/img/img1.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Hemos diseñado este manual para que sea clara, sencilla y fácil de seguir. Aquí encontrarás explicaciones 
+        paso a paso con ejemplos que te ayudarán a entender todo sin complicaciones.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Detecta errores al instante',
+    Svg: require('@site/static/img/img2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Usa el panel Sources para depurar tu código JavaScript. Puedes establecer puntos de interrupción, inspeccionar variables y
+        seguir el flujo de ejecución de tu código. Esto te ayudará a identificar y corregir errores de manera más eficiente.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Analiza tu red de forma clara y rápida',
+    Svg: require('@site/static/img/img3.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Puedes visualizar cómo se conectan los dispositivos, detectar problemas y optimizar el rendimiento en pocos pasos.
+        Además, puedes ver el tiempo que tarda cada solicitud y cómo se comporta tu aplicación en diferentes condiciones de red.
       </>
     ),
   },

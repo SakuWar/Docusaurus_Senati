@@ -11,8 +11,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Manual de uso del inspector de elementos',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'Guía sobre el Inspector de Elementos en la Web',
+  favicon: 'img/logo_icon.ico',
 
   // Set the production url of your site here
   url: 'https://967876949.facturalo.co',
@@ -76,17 +76,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_icon.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentación',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -103,7 +103,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentación',
                 to: '/docs/intro',
               },
             ],
@@ -121,7 +121,7 @@ const config = {
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/home',
               },
             ],
           },
